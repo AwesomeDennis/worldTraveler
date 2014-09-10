@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137EE20519C1114000FC33D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20419C1114000FC33D7 /* Foundation.framework */; };
+		137EE20719C1114000FC33D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20619C1114000FC33D7 /* CoreGraphics.framework */; };
+		137EE20919C1114000FC33D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20819C1114000FC33D7 /* UIKit.framework */; };
+		137EE20F19C1114000FC33D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 137EE20D19C1114000FC33D7 /* InfoPlist.strings */; };
+		137EE21119C1114000FC33D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21019C1114000FC33D7 /* main.m */; };
+		137EE21519C1114000FC33D7 /* MRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21419C1114000FC33D7 /* MRAppDelegate.m */; };
+		137EE21819C1114000FC33D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137EE21619C1114000FC33D7 /* Main.storyboard */; };
+		137EE21B19C1114000FC33D7 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21A19C1114000FC33D7 /* MRViewController.m */; };
+		137EE21D19C1114000FC33D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137EE21C19C1114000FC33D7 /* Images.xcassets */; };
+		137EE22419C1114000FC33D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE22319C1114000FC33D7 /* XCTest.framework */; };
+		137EE22519C1114000FC33D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20419C1114000FC33D7 /* Foundation.framework */; };
+		137EE22619C1114000FC33D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20819C1114000FC33D7 /* UIKit.framework */; };
+		137EE22E19C1114000FC33D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 137EE22C19C1114000FC33D7 /* InfoPlist.strings */; };
+		137EE23019C1114000FC33D7 /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE22F19C1114000FC33D7 /* World_TravelerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137EE22719C1114000FC33D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137EE1F919C1114000FC33D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137EE20019C1114000FC33D7;
+			remoteInfo = "World Traveler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137EE20119C1114000FC33D7 /* World Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137EE20419C1114000FC33D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		137EE20619C1114000FC33D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		137EE20819C1114000FC33D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		137EE20C19C1114000FC33D7 /* World Traveler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Traveler-Info.plist"; sourceTree = "<group>"; };
+		137EE20E19C1114000FC33D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		137EE21019C1114000FC33D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		137EE21219C1114000FC33D7 /* World Traveler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Traveler-Prefix.pch"; sourceTree = "<group>"; };
+		137EE21319C1114000FC33D7 /* MRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegate.h; sourceTree = "<group>"; };
+		137EE21419C1114000FC33D7 /* MRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegate.m; sourceTree = "<group>"; };
+		137EE21719C1114000FC33D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		137EE21919C1114000FC33D7 /* MRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
+		137EE21A19C1114000FC33D7 /* MRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
+		137EE21C19C1114000FC33D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		137EE22219C1114000FC33D7 /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137EE22319C1114000FC33D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		137EE22B19C1114000FC33D7 /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
+		137EE22D19C1114000FC33D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		137EE22F19C1114000FC33D7 /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137EE1FE19C1114000FC33D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137EE20719C1114000FC33D7 /* CoreGraphics.framework in Frameworks */,
+				137EE20919C1114000FC33D7 /* UIKit.framework in Frameworks */,
+				137EE20519C1114000FC33D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137EE21F19C1114000FC33D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137EE22419C1114000FC33D7 /* XCTest.framework in Frameworks */,
+				137EE22619C1114000FC33D7 /* UIKit.framework in Frameworks */,
+				137EE22519C1114000FC33D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137EE1F819C1114000FC33D7 = {
+			isa = PBXGroup;
+			children = (
+				137EE20A19C1114000FC33D7 /* World Traveler */,
+				137EE22919C1114000FC33D7 /* World TravelerTests */,
+				137EE20319C1114000FC33D7 /* Frameworks */,
+				137EE20219C1114000FC33D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137EE20219C1114000FC33D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137EE20119C1114000FC33D7 /* World Traveler.app */,
+				137EE22219C1114000FC33D7 /* World TravelerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137EE20319C1114000FC33D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137EE20419C1114000FC33D7 /* Foundation.framework */,
+				137EE20619C1114000FC33D7 /* CoreGraphics.framework */,
+				137EE20819C1114000FC33D7 /* UIKit.framework */,
+				137EE22319C1114000FC33D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		137EE20A19C1114000FC33D7 /* World Traveler */ = {
+			isa = PBXGroup;
+			children = (
+				137EE21319C1114000FC33D7 /* MRAppDelegate.h */,
+				137EE21419C1114000FC33D7 /* MRAppDelegate.m */,
+				137EE21619C1114000FC33D7 /* Main.storyboard */,
+				137EE21919C1114000FC33D7 /* MRViewController.h */,
+				137EE21A19C1114000FC33D7 /* MRViewController.m */,
+				137EE21C19C1114000FC33D7 /* Images.xcassets */,
+				137EE20B19C1114000FC33D7 /* Supporting Files */,
+			);
+			path = "World Traveler";
+			sourceTree = "<group>";
+		};
+		137EE20B19C1114000FC33D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				137EE20C19C1114000FC33D7 /* World Traveler-Info.plist */,
+				137EE20D19C1114000FC33D7 /* InfoPlist.strings */,
+				137EE21019C1114000FC33D7 /* main.m */,
+				137EE21219C1114000FC33D7 /* World Traveler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		137EE22919C1114000FC33D7 /* World TravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				137EE22F19C1114000FC33D7 /* World_TravelerTests.m */,
+				137EE22A19C1114000FC33D7 /* Supporting Files */,
+			);
+			path = "World TravelerTests";
+			sourceTree = "<group>";
+		};
+		137EE22A19C1114000FC33D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				137EE22B19C1114000FC33D7 /* World TravelerTests-Info.plist */,
+				137EE22C19C1114000FC33D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137EE20019C1114000FC33D7 /* World Traveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137EE23319C1114000FC33D7 /* Build configuration list for PBXNativeTarget "World Traveler" */;
+			buildPhases = (
+				137EE1FD19C1114000FC33D7 /* Sources */,
+				137EE1FE19C1114000FC33D7 /* Frameworks */,
+				137EE1FF19C1114000FC33D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Traveler";
+			productName = "World Traveler";
+			productReference = 137EE20119C1114000FC33D7 /* World Traveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		137EE22119C1114000FC33D7 /* World TravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137EE23619C1114000FC33D7 /* Build configuration list for PBXNativeTarget "World TravelerTests" */;
+			buildPhases = (
+				137EE21E19C1114000FC33D7 /* Sources */,
+				137EE21F19C1114000FC33D7 /* Frameworks */,
+				137EE22019C1114000FC33D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137EE22819C1114000FC33D7 /* PBXTargetDependency */,
+			);
+			name = "World TravelerTests";
+			productName = "World TravelerTests";
+			productReference = 137EE22219C1114000FC33D7 /* World TravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137EE1F919C1114000FC33D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu.self.edu;
+				TargetAttributes = {
+					137EE22119C1114000FC33D7 = {
+						TestTargetID = 137EE20019C1114000FC33D7;
+					};
+				};
+			};
+			buildConfigurationList = 137EE1FC19C1114000FC33D7 /* Build configuration list for PBXProject "World Traveler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137EE1F819C1114000FC33D7;
+			productRefGroup = 137EE20219C1114000FC33D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137EE20019C1114000FC33D7 /* World Traveler */,
+				137EE22119C1114000FC33D7 /* World TravelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137EE1FF19C1114000FC33D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137EE21D19C1114000FC33D7 /* Images.xcassets in Resources */,
+				137EE20F19C1114000FC33D7 /* InfoPlist.strings in Resources */,
+				137EE21819C1114000FC33D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137EE22019C1114000FC33D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137EE22E19C1114000FC33D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137EE1FD19C1114000FC33D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137EE21119C1114000FC33D7 /* main.m in Sources */,
+				137EE21B19C1114000FC33D7 /* MRViewController.m in Sources */,
+				137EE21519C1114000FC33D7 /* MRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137EE21E19C1114000FC33D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137EE23019C1114000FC33D7 /* World_TravelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		137EE22819C1114000FC33D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137EE20019C1114000FC33D7 /* World Traveler */;
+			targetProxy = 137EE22719C1114000FC33D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		137EE20D19C1114000FC33D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137EE20E19C1114000FC33D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		137EE21619C1114000FC33D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137EE21719C1114000FC33D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		137EE22C19C1114000FC33D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137EE22D19C1114000FC33D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		137EE23119C1114000FC33D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		137EE23219C1114000FC33D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137EE23419C1114000FC33D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		137EE23519C1114000FC33D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World Traveler/World Traveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		137EE23719C1114000FC33D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		137EE23819C1114000FC33D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveler.app/World Traveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveler/World Traveler-Prefix.pch";
+				INFOPLIST_FILE = "World TravelerTests/World TravelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137EE1FC19C1114000FC33D7 /* Build configuration list for PBXProject "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137EE23119C1114000FC33D7 /* Debug */,
+				137EE23219C1114000FC33D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137EE23319C1114000FC33D7 /* Build configuration list for PBXNativeTarget "World Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137EE23419C1114000FC33D7 /* Debug */,
+				137EE23519C1114000FC33D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		137EE23619C1114000FC33D7 /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137EE23719C1114000FC33D7 /* Debug */,
+				137EE23819C1114000FC33D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 137EE1F919C1114000FC33D7 /* Project object */;
+}
