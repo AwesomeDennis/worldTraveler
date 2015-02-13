@@ -1,0 +1,7 @@
+platform :ios, "7.0"
+
+pod 'MBProgressHUD', '~> 0.8'
+pod 'MMRecord', '~> 1.4.1'
+pod 'MagicalRecord', '~> 2.2'
+pod 'AFNetworking', '~> 2.1.0'
+pod 'MMDrawerController/MMDrawerVisualStates', '~> 0.5.3'

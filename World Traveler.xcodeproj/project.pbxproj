@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115F3EAC29244F6184D0122F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB19517F8AA4F20B0073165 /* libPods.a */; };
+		1353AB0119C8052D00539E49 /* menu-icon-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1353AAFF19C8052D00539E49 /* menu-icon-2x.png */; };
+		1361DC1E19C79F0600357265 /* MRMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1361DC1D19C79F0600357265 /* MRMenuViewController.m */; };
+		136284E219EA446100E75D13 /* MRFavoriteVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136284E119EA446100E75D13 /* MRFavoriteVenuesViewController.m */; };
+		136284E519EA448600E75D13 /* MRAddVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136284E419EA448600E75D13 /* MRAddVenueViewController.m */; };
+		136284E719EA575E00E75D13 /* MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 136284E619EA575E00E75D13 /* MenuIcon.png */; };
 		137EE20519C1114000FC33D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20419C1114000FC33D7 /* Foundation.framework */; };
 		137EE20719C1114000FC33D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20619C1114000FC33D7 /* CoreGraphics.framework */; };
 		137EE20919C1114000FC33D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20819C1114000FC33D7 /* UIKit.framework */; };
@@ -14,13 +20,29 @@
 		137EE21119C1114000FC33D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21019C1114000FC33D7 /* main.m */; };
 		137EE21519C1114000FC33D7 /* MRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21419C1114000FC33D7 /* MRAppDelegate.m */; };
 		137EE21819C1114000FC33D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137EE21619C1114000FC33D7 /* Main.storyboard */; };
-		137EE21B19C1114000FC33D7 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21A19C1114000FC33D7 /* MRViewController.m */; };
+		137EE21B19C1114000FC33D7 /* MRListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE21A19C1114000FC33D7 /* MRListViewController.m */; };
 		137EE21D19C1114000FC33D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137EE21C19C1114000FC33D7 /* Images.xcassets */; };
 		137EE22419C1114000FC33D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE22319C1114000FC33D7 /* XCTest.framework */; };
 		137EE22519C1114000FC33D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20419C1114000FC33D7 /* Foundation.framework */; };
 		137EE22619C1114000FC33D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE20819C1114000FC33D7 /* UIKit.framework */; };
 		137EE22E19C1114000FC33D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 137EE22C19C1114000FC33D7 /* InfoPlist.strings */; };
 		137EE23019C1114000FC33D7 /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE22F19C1114000FC33D7 /* World_TravelerTests.m */; };
+		137EE23E19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE23B19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.m */; };
+		137EE23F19C111F800FC33D7 /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE23D19C111F800FC33D7 /* AFMMRecordResponseSerializer.m */; };
+		137EE24219C1134100FC33D7 /* MRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137EE24119C1134100FC33D7 /* MRMapViewController.m */; };
+		137EE24419C11FF200FC33D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137EE24319C11FF200FC33D7 /* MapKit.framework */; };
+		13A6A27F19EB2B73004E9A93 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A27E19EB2B73004E9A93 /* Venue.m */; };
+		13B2A76119C7425600D77C55 /* MRDirectionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A76019C7425600D77C55 /* MRDirectionsListViewController.m */; };
+		13BA3BE119C38AA8000DDB7D /* MRDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BA3BE019C38AA8000DDB7D /* MRDirectionsViewController.m */; };
+		13BBE40A19C2717600AA4270 /* MyWorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE40819C2717600AA4270 /* MyWorldTravelerModel.xcdatamodeld */; };
+		13BBE40C19C271A200AA4270 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BBE40B19C271A200AA4270 /* CoreData.framework */; };
+		13BBE42519C2796800AA4270 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE42419C2796800AA4270 /* Contact.m */; };
+		13BBE42819C2796800AA4270 /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE42719C2796800AA4270 /* FSCategory.m */; };
+		13BBE42B19C2796800AA4270 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE42A19C2796800AA4270 /* Location.m */; };
+		13BBE42E19C2796800AA4270 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE42D19C2796800AA4270 /* Menu.m */; };
+		13BBE43119C2797E00AA4270 /* TCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE43019C2797E00AA4270 /* TCRecord.m */; };
+		13BBE43519C2BE8A00AA4270 /* MRFourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE43419C2BE8A00AA4270 /* MRFourSquareSessionManager.m */; };
+		13BBE43719C2D04F00AA4270 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BBE43619C2D04F00AA4270 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1353AAFF19C8052D00539E49 /* menu-icon-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon-2x.png"; sourceTree = "<group>"; };
+		1361DC1C19C79F0600357265 /* MRMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMenuViewController.h; sourceTree = "<group>"; };
+		1361DC1D19C79F0600357265 /* MRMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMenuViewController.m; sourceTree = "<group>"; };
+		136284E019EA446100E75D13 /* MRFavoriteVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFavoriteVenuesViewController.h; sourceTree = "<group>"; };
+		136284E119EA446100E75D13 /* MRFavoriteVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFavoriteVenuesViewController.m; sourceTree = "<group>"; };
+		136284E319EA448600E75D13 /* MRAddVenueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAddVenueViewController.h; sourceTree = "<group>"; };
+		136284E419EA448600E75D13 /* MRAddVenueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRAddVenueViewController.m; sourceTree = "<group>"; };
+		136284E619EA575E00E75D13 /* MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIcon.png; sourceTree = "<group>"; };
 		137EE20119C1114000FC33D7 /* World Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		137EE20419C1114000FC33D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		137EE20619C1114000FC33D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +75,44 @@
 		137EE21319C1114000FC33D7 /* MRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegate.h; sourceTree = "<group>"; };
 		137EE21419C1114000FC33D7 /* MRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegate.m; sourceTree = "<group>"; };
 		137EE21719C1114000FC33D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		137EE21919C1114000FC33D7 /* MRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
-		137EE21A19C1114000FC33D7 /* MRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
+		137EE21919C1114000FC33D7 /* MRListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRListViewController.h; sourceTree = "<group>"; };
+		137EE21A19C1114000FC33D7 /* MRListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRListViewController.m; sourceTree = "<group>"; };
 		137EE21C19C1114000FC33D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		137EE22219C1114000FC33D7 /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		137EE22319C1114000FC33D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		137EE22B19C1114000FC33D7 /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
 		137EE22D19C1114000FC33D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		137EE22F19C1114000FC33D7 /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+		137EE23A19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializationMapper.h; sourceTree = "<group>"; };
+		137EE23B19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
+		137EE23C19C111F800FC33D7 /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
+		137EE23D19C111F800FC33D7 /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
+		137EE24019C1134100FC33D7 /* MRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMapViewController.h; sourceTree = "<group>"; };
+		137EE24119C1134100FC33D7 /* MRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMapViewController.m; sourceTree = "<group>"; };
+		137EE24319C11FF200FC33D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		13A6A27D19EB2B73004E9A93 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Venue.h; path = ../Venue.h; sourceTree = "<group>"; };
+		13A6A27E19EB2B73004E9A93 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Venue.m; path = ../Venue.m; sourceTree = "<group>"; };
+		13B2A75F19C7425600D77C55 /* MRDirectionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDirectionsListViewController.h; sourceTree = "<group>"; };
+		13B2A76019C7425600D77C55 /* MRDirectionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDirectionsListViewController.m; sourceTree = "<group>"; };
+		13BA3BDF19C38AA8000DDB7D /* MRDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDirectionsViewController.h; sourceTree = "<group>"; };
+		13BA3BE019C38AA8000DDB7D /* MRDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDirectionsViewController.m; sourceTree = "<group>"; };
+		13BBE40919C2717600AA4270 /* MyWorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyWorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
+		13BBE40B19C271A200AA4270 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		13BBE42319C2796800AA4270 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		13BBE42419C2796800AA4270 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		13BBE42619C2796800AA4270 /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
+		13BBE42719C2796800AA4270 /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
+		13BBE42919C2796800AA4270 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		13BBE42A19C2796800AA4270 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		13BBE42C19C2796800AA4270 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		13BBE42D19C2796800AA4270 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		13BBE42F19C2797E00AA4270 /* TCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecord.h; sourceTree = "<group>"; };
+		13BBE43019C2797E00AA4270 /* TCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecord.m; sourceTree = "<group>"; };
+		13BBE43319C2BE8A00AA4270 /* MRFourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFourSquareSessionManager.h; sourceTree = "<group>"; };
+		13BBE43419C2BE8A00AA4270 /* MRFourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFourSquareSessionManager.m; sourceTree = "<group>"; };
+		13BBE43619C2D04F00AA4270 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5CB19517F8AA4F20B0073165 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C671A1F0B41289FAA8BE0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +120,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BBE43719C2D04F00AA4270 /* CoreLocation.framework in Frameworks */,
+				13BBE40C19C271A200AA4270 /* CoreData.framework in Frameworks */,
+				137EE24419C11FF200FC33D7 /* MapKit.framework in Frameworks */,
 				137EE20719C1114000FC33D7 /* CoreGraphics.framework in Frameworks */,
 				137EE20919C1114000FC33D7 /* UIKit.framework in Frameworks */,
 				137EE20519C1114000FC33D7 /* Foundation.framework in Frameworks */,
+				115F3EAC29244F6184D0122F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +150,7 @@
 				137EE22919C1114000FC33D7 /* World TravelerTests */,
 				137EE20319C1114000FC33D7 /* Frameworks */,
 				137EE20219C1114000FC33D7 /* Products */,
+				EA1C671A1F0B41289FAA8BE0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +166,15 @@
 		137EE20319C1114000FC33D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13BBE43619C2D04F00AA4270 /* CoreLocation.framework */,
+				13BBE40B19C271A200AA4270 /* CoreData.framework */,
+				137EE23919C111F800FC33D7 /* AFMMRecordResponseSerializer */,
+				137EE24319C11FF200FC33D7 /* MapKit.framework */,
 				137EE20419C1114000FC33D7 /* Foundation.framework */,
 				137EE20619C1114000FC33D7 /* CoreGraphics.framework */,
 				137EE20819C1114000FC33D7 /* UIKit.framework */,
 				137EE22319C1114000FC33D7 /* XCTest.framework */,
+				5CB19517F8AA4F20B0073165 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +182,10 @@
 		137EE20A19C1114000FC33D7 /* World Traveler */ = {
 			isa = PBXGroup;
 			children = (
-				137EE21319C1114000FC33D7 /* MRAppDelegate.h */,
-				137EE21419C1114000FC33D7 /* MRAppDelegate.m */,
-				137EE21619C1114000FC33D7 /* Main.storyboard */,
-				137EE21919C1114000FC33D7 /* MRViewController.h */,
-				137EE21A19C1114000FC33D7 /* MRViewController.m */,
+				13BBE43819C2D19D00AA4270 /* Initialization */,
+				13BBE43919C2D1C200AA4270 /* Views */,
+				13BBE43219C2BE5400AA4270 /* API */,
+				13BBE40619C2714400AA4270 /* Model */,
 				137EE21C19C1114000FC33D7 /* Images.xcassets */,
 				137EE20B19C1114000FC33D7 /* Supporting Files */,
 			);
@@ -126,6 +195,8 @@
 		137EE20B19C1114000FC33D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				136284E619EA575E00E75D13 /* MenuIcon.png */,
+				1353AAFF19C8052D00539E49 /* menu-icon-2x.png */,
 				137EE20C19C1114000FC33D7 /* World Traveler-Info.plist */,
 				137EE20D19C1114000FC33D7 /* InfoPlist.strings */,
 				137EE21019C1114000FC33D7 /* main.m */,
@@ -152,6 +223,85 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		137EE23919C111F800FC33D7 /* AFMMRecordResponseSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				137EE23A19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.h */,
+				137EE23B19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.m */,
+				137EE23C19C111F800FC33D7 /* AFMMRecordResponseSerializer.h */,
+				137EE23D19C111F800FC33D7 /* AFMMRecordResponseSerializer.m */,
+			);
+			path = AFMMRecordResponseSerializer;
+			sourceTree = "<group>";
+		};
+		13BBE40619C2714400AA4270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13BBE40819C2717600AA4270 /* MyWorldTravelerModel.xcdatamodeld */,
+				13BBE41C19C2762600AA4270 /* Model Files */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13BBE41C19C2762600AA4270 /* Model Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A6A27D19EB2B73004E9A93 /* Venue.h */,
+				13A6A27E19EB2B73004E9A93 /* Venue.m */,
+				13BBE42F19C2797E00AA4270 /* TCRecord.h */,
+				13BBE43019C2797E00AA4270 /* TCRecord.m */,
+				13BBE42319C2796800AA4270 /* Contact.h */,
+				13BBE42419C2796800AA4270 /* Contact.m */,
+				13BBE42C19C2796800AA4270 /* Menu.h */,
+				13BBE42D19C2796800AA4270 /* Menu.m */,
+				13BBE42919C2796800AA4270 /* Location.h */,
+				13BBE42A19C2796800AA4270 /* Location.m */,
+				13BBE42619C2796800AA4270 /* FSCategory.h */,
+				13BBE42719C2796800AA4270 /* FSCategory.m */,
+			);
+			name = "Model Files";
+			sourceTree = "<group>";
+		};
+		13BBE43219C2BE5400AA4270 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				13BBE43319C2BE8A00AA4270 /* MRFourSquareSessionManager.h */,
+				13BBE43419C2BE8A00AA4270 /* MRFourSquareSessionManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		13BBE43819C2D19D00AA4270 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				137EE21319C1114000FC33D7 /* MRAppDelegate.h */,
+				137EE21419C1114000FC33D7 /* MRAppDelegate.m */,
+				137EE21619C1114000FC33D7 /* Main.storyboard */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		13BBE43919C2D1C200AA4270 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				137EE21919C1114000FC33D7 /* MRListViewController.h */,
+				137EE21A19C1114000FC33D7 /* MRListViewController.m */,
+				137EE24019C1134100FC33D7 /* MRMapViewController.h */,
+				137EE24119C1134100FC33D7 /* MRMapViewController.m */,
+				13BA3BDF19C38AA8000DDB7D /* MRDirectionsViewController.h */,
+				13BA3BE019C38AA8000DDB7D /* MRDirectionsViewController.m */,
+				13B2A75F19C7425600D77C55 /* MRDirectionsListViewController.h */,
+				13B2A76019C7425600D77C55 /* MRDirectionsListViewController.m */,
+				1361DC1C19C79F0600357265 /* MRMenuViewController.h */,
+				1361DC1D19C79F0600357265 /* MRMenuViewController.m */,
+				136284E019EA446100E75D13 /* MRFavoriteVenuesViewController.h */,
+				136284E119EA446100E75D13 /* MRFavoriteVenuesViewController.m */,
+				136284E319EA448600E75D13 /* MRAddVenueViewController.h */,
+				136284E419EA448600E75D13 /* MRAddVenueViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 137EE23319C1114000FC33D7 /* Build configuration list for PBXNativeTarget "World Traveler" */;
 			buildPhases = (
+				4DA609A4B94C48BBB10AF080 /* Check Pods Manifest.lock */,
 				137EE1FD19C1114000FC33D7 /* Sources */,
 				137EE1FE19C1114000FC33D7 /* Frameworks */,
 				137EE1FF19C1114000FC33D7 /* Resources */,
+				D143F377DCB944E98DDAA329 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				137EE21D19C1114000FC33D7 /* Images.xcassets in Resources */,
+				136284E719EA575E00E75D13 /* MenuIcon.png in Resources */,
+				1353AB0119C8052D00539E49 /* menu-icon-2x.png in Resources */,
 				137EE20F19C1114000FC33D7 /* InfoPlist.strings in Resources */,
 				137EE21819C1114000FC33D7 /* Main.storyboard in Resources */,
 			);
@@ -245,13 +399,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DA609A4B94C48BBB10AF080 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D143F377DCB944E98DDAA329 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		137EE1FD19C1114000FC33D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BBE42819C2796800AA4270 /* FSCategory.m in Sources */,
+				137EE24219C1134100FC33D7 /* MRMapViewController.m in Sources */,
+				136284E219EA446100E75D13 /* MRFavoriteVenuesViewController.m in Sources */,
+				13B2A76119C7425600D77C55 /* MRDirectionsListViewController.m in Sources */,
+				13BBE42E19C2796800AA4270 /* Menu.m in Sources */,
+				137EE23F19C111F800FC33D7 /* AFMMRecordResponseSerializer.m in Sources */,
+				137EE23E19C111F800FC33D7 /* AFMMRecordResponseSerializationMapper.m in Sources */,
+				13BBE42B19C2796800AA4270 /* Location.m in Sources */,
+				13A6A27F19EB2B73004E9A93 /* Venue.m in Sources */,
+				1361DC1E19C79F0600357265 /* MRMenuViewController.m in Sources */,
 				137EE21119C1114000FC33D7 /* main.m in Sources */,
-				137EE21B19C1114000FC33D7 /* MRViewController.m in Sources */,
+				13BA3BE119C38AA8000DDB7D /* MRDirectionsViewController.m in Sources */,
+				13BBE43119C2797E00AA4270 /* TCRecord.m in Sources */,
+				136284E519EA448600E75D13 /* MRAddVenueViewController.m in Sources */,
+				137EE21B19C1114000FC33D7 /* MRListViewController.m in Sources */,
+				13BBE40A19C2717600AA4270 /* MyWorldTravelerModel.xcdatamodeld in Sources */,
+				13BBE42519C2796800AA4270 /* Contact.m in Sources */,
+				13BBE43519C2BE8A00AA4270 /* MRFourSquareSessionManager.m in Sources */,
 				137EE21519C1114000FC33D7 /* MRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +577,7 @@
 		};
 		137EE23419C1114000FC33D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1C671A1F0B41289FAA8BE0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +591,7 @@
 		};
 		137EE23519C1114000FC33D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1C671A1F0B41289FAA8BE0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +662,7 @@
 				137EE23519C1114000FC33D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		137EE23619C1114000FC33D7 /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +671,22 @@
 				137EE23819C1114000FC33D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13BBE40819C2717600AA4270 /* MyWorldTravelerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13BBE40919C2717600AA4270 /* MyWorldTravelerModel.xcdatamodel */,
+			);
+			currentVersion = 13BBE40919C2717600AA4270 /* MyWorldTravelerModel.xcdatamodel */;
+			path = MyWorldTravelerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 137EE1F919C1114000FC33D7 /* Project object */;
 }

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MRViewController : UIViewController
+@interface MRListViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
+
+- (IBAction)menuBarButtonItemPressed:(UIBarButtonItem *)sender;
 
 @end

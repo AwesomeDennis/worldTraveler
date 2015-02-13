@@ -7,12 +7,44 @@
 //
 
 #import "MRAppDelegate.h"
+#import "MRMenuViewController.h"
+#import "MRListViewController.h"
+#import "MMDrawerVisualState.h"
 
 @implementation MRAppDelegate
+
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"WorldTravelerModel"];
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    NSLog(@"%@", mainStoryboard);
+    
+    MRMenuViewController *menuController = (MRMenuViewController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"MenuViewControllerID"];
+    MRListViewController *listViewController = (MRListViewController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"ListViewControllerID"];
+    
+    self.drawerController = [[MMDrawerController alloc] initWithCenterViewController:listViewController leftDrawerViewController:menuController];
+    
+    [self.drawerController setMaximumLeftDrawerWidth:200.0];
+    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    [self.drawerController setDrawerVisualStateBlock:[MMDrawerVisualState slideAndScaleVisualStateBlock]];
+
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+    [self.window setRootViewController:self.drawerController];
+    
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
